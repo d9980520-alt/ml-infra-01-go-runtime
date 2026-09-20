@@ -1,2 +1,41 @@
-# ml-infra-01-go-runtime
-List 01: Go internals — GMP, GC, escape analysis, hchan, pprof, benchmark, trace, sync.Pool
+# List 01 — Go Runtime
+
+Часть серии [ml-infra-roadmap](https://github.com/d9980520-alt/ml-infra-roadmap).
+
+**Статус:** в процессе
+
+## Что изучаю
+
+- GMP-планировщик
+- Escape analysis
+- GC (сборка мусора)
+- hchan (каналы изнутри)
+- pprof, benchmark, trace
+- sync.Pool
+
+## План
+
+1. Теория + чтение исходников runtime
+2. Свой планировщик горутин
+3. Профилирование через pprof
+4. Сравнение benchmark до/после
+
+## Финальный проект
+
+Свой планировщик горутин.
+
+## Как изучал
+
+*(заполню по ходу)*
+
+## Ошибки
+
+*(заполню по ходу)*
+
+## Результаты
+
+*(заполню в конце)*
+
+## Как запустить
+
+*(добавлю, когда будет код)*
