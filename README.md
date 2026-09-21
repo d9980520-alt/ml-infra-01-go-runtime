@@ -1,41 +1,32 @@
-# List 01 — Go Runtime
+Part of the ml-infra-roadmap series.
 
-Часть серии [ml-infra-roadmap](https://github.com/d9980520-alt/ml-infra-roadmap).
+Status: in progress
 
-**Статус:** в процессе
+What I'm learning
+GMP scheduler
+Escape analysis
+GC (garbage collection)
+hchan (channels internals)
+pprof, benchmark, trace
+sync.Pool
 
-## Что изучаю
+Plan
+Theory + reading runtime source code
+Custom goroutine scheduler
+Profiling with pprof
+Benchmark comparison before/after
 
-- GMP-планировщик
-- Escape analysis
-- GC (сборка мусора)
-- hchan (каналы изнутри)
-- pprof, benchmark, trace
-- sync.Pool
+Final project
+Custom goroutine scheduler.
 
-## План
+How I learned
+(I'll fill in as I go)
 
-1. Теория + чтение исходников runtime
-2. Свой планировщик горутин
-3. Профилирование через pprof
-4. Сравнение benchmark до/после
+Mistakes
+(I'll fill in as I go)
 
-## Финальный проект
+Results
+(I'll fill in at the end)
 
-Свой планировщик горутин.
-
-## Как изучал
-
-*(заполню по ходу)*
-
-## Ошибки
-
-*(заполню по ходу)*
-
-## Результаты
-
-*(заполню в конце)*
-
-## Как запустить
-
-*(добавлю, когда будет код)*
+How to run
+(I'll add when there's code)
