@@ -1,0 +1,37 @@
+
+
+
+syntax = "proto3";
+
+package player;
+
+option go_package = "study/api;playerpb";
+
+service PlayerService {
+  rpc CreatePlayer(CreatePlayerRequest) returns (CreatePlayerResponse);
+  rpc GetPlayer(GetPlayerRequest) returns (GetPlayerResponse);
+}
+
+message Player {
+  int64 id = 1;
+  string name = 2;
+  int64 balance = 3;
+  int64 last_seen_unix = 4;
+}
+
+message CreatePlayerRequest {
+  string name = 1;
+  int64 balance = 2;
+}
+
+message CreatePlayerResponse {
+  Player player = 1;
+}
+
+message GetPlayerRequest {
+  int64 id = 1;
+}
+
+message GetPlayerResponse {
+  Player player = 1;
+}
